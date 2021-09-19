@@ -2,10 +2,10 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from .info import get_movie
 
-START_TEXT = """Hello {}
-I am a movie information finder bot.
-> `I can find information of all movies.`
-Made by @FayasNoushad"""
+START_TEXT = """Merhaba {}
+Ben film botuyum.
+> `Ben sana aradığın film hakkında info vereceğim`
+@wertinium"""
 
 JOIN_BUTTONS = [
     InlineKeyboardButton(
