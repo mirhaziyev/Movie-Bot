@@ -1,0 +1,28 @@
+{
+    "name": "Movie-Bot",
+    "description": "Movie info finder bot",
+    "repository": "https://github.com/wertinium/Movie-Bot/",
+    "keywords": [
+        "movie",
+        "information",
+        "finder",
+        "pyrogram",
+        "telegram bot"
+    ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "@Botfather"
+        },
+        "API_ID": {
+            "description": "https://my.telegram.org/apps"
+        },
+        "API_HASH": {
+            "description": "https://my.telegram.org/apps"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
